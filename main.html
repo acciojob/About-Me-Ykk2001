@@ -1,1 +1,245 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Webpage Creation</title>
+    <style>
+      .profile img {
+        width: 150px;
+      }
+      .spanClass {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+      }
+      .profile-skills {
+        width: 40%;
+      }
+
+      .profile {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+      .profile img {
+        width: 150px;
+        border-radius: 12px;
+        margin-right: 20px;
+        box-shadow: 0 0 7px #baa1a1;
+      }
+      .name p {
+        margin: 6px 0;
+        font-size: 14px;
+      }
+
+      /* right section */
+      .right-section {
+        width: 55%;
+      }
+      .name strong {
+        color: #333;
+      }
+
+      .skills h2 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .skill {
+        margin-bottom: 15px;
+      }
+      .progress {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+      height: 10px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 10px;
+      border-radius: 10px;
+    }
+    .right-section h2 {
+      color: #333;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+    .right-section p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Profile and skills -->
+      <div class="profile-skills">
+        <!-- name section -->
+        <div class="profile">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.oQS3heRqKi9k1cPvoKyk-gHaE8?pid=Api&P=0&h=180" alt="" />
+          <div class="name">
+            <p><strong>Name:</strong>Yogesh Khatake</p>
+            <p><strong>Profile:</strong>Mern Developer</p>
+            <p><strong>Email:</strong>yogeshkhatake18@gmail.com</p>
+          </div>
+        </div>
+        <!-- skills section -->
+        <div class="skills">
+          <h2>Skills</h2>
+          <!-- skill1 -->
+          <div class="skill">
+            <!-- spanclass -->
+            <div class="spanClass">
+              <span>
+                REACT
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React icons"
+                  width="20"
+                />
+                CSS
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS icon"
+                  width="20"
+                />
+                JAVASCRIPT
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="Js icon"
+                  width="20"
+                />
+              </span>
+              <span class="percent">95%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 95%; background-color: blueviolet"
+              ></div>
+            </div>
+          </div>
+
+          <!-- skill2 -->
+          <div class="skill">
+            <div class="spanClass">
+              <span>
+                NODEJS
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="Node js"
+                  width="20"
+                />
+                MONGODB
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="Mongo"
+                  width="20"
+                />
+              </span>
+              <span class="percent">90%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 90%; background-color: green"
+              ></div>
+            </div>
+          </div>
+
+          <!-- skill3 -->
+          <div class="skill">
+            <div class="spanClass">
+              <span>
+                C/C++
+                <img
+                  src="https://up.yimg.com/ib/th/id/OIP.xArBXEOC16qTDqmQ4EcLxwHaFm?pid=Api&rs=1&c=1&qlt=95&w=150&h=114"
+                  alt="C/C++"
+                  width="20"
+                />
+                PYTHON
+                <img
+                  src="https://img.icons8.com/?size=96&id=13441&format=png"
+                  alt="Python"
+                  width="20"
+                />
+                BATCH
+                <img
+                  src="https://tse3.mm.bing.net/th/id/OIP.TyKsUHk6bbIayMG4GuR5dgHaHa?pid=Api&P=0&h=180"
+                  alt="Bacth"
+                  width="20"
+                />
+              </span>
+              <span class="percent">99%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 99%; background-color: orange"
+              ></div>
+            </div>
+          </div>
+
+          <!-- skill4 -->
+          <div class="skill">
+            <div class="spanClass">
+              <span>
+                AWS
+                <img
+                  src="https://www.svgrepo.com/show/448266/aws.svg"
+                  alt="AWS"
+                  width="20"
+                />
+                HADOOP
+                <img
+                  src="https://www.svgrepo.com/show/353851/hadoop.svg"
+                  alt="haddop"
+                  width="20"
+                />
+              </span>
+              <span class="percent">99%</span>
+            </div>
+
+            <div class="progress">
+              <div
+                class="progress-bar"
+                style="width: 93%; background-color: teal"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <h2>About me</h2>
+        <p>
+          I am a self-starter with a passion to adapt and evangelise new
+          technologies. I have a passion for software development with a diverse
+          skillset ranging from the MERN stack to a stronghold on data
+          structures and algorithms. I like to tackle complex challenges head-on
+          to deliver technically sound solutions with optimum efficiency.
+        </p>
+        <p>
+          I believe that magic is possible with a blend of imagination, hard
+          work, and passion. Most of all, I believe in determination and honest
+          efforts to enhance my skills in order to contribute to the growth of
+          society.
+        </p>
+      </div>
+    </div>
+    <!-- Container -->
+  </body>
+</html>
